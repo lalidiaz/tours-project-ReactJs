@@ -55,39 +55,11 @@ p {
   margin-bottom: 1.25rem;
   color: gray;
 }
-@media screen and (min-width: 800px) {
-  h1 {
-    font-size: 4rem;
-  }
-  h2 {
-    font-size: 2.5rem;
-  }
-  h3 {
-    font-size: 1.75rem;
-  }
-  h4 {
-    font-size: 1rem;
-  }
-  body {
-    font-size: 1rem;
-  }
-  h1,
-  h2,
-  h3,
-  h4 {
-    line-height: 1;
-  }
-}
 
 section {
   width: 100%;
 }
 
-@media screen and (min-width: 992px) {
-  .section {
-    width: 95vw;
-  }
-}
 .btn {
   display: inline-block;
   border-radius: 10px;
@@ -178,4 +150,23 @@ main {
   border: 1px solid tomato;
   padding: 0.25rem 0.5rem;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .tour-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .single-tour {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .tour-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .single-tour {
+    width: 60%;
+  }
 }
