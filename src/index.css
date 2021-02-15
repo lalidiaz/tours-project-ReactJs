@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 :root {
   /* dark shades of primary color*/
   --clr-primary-1: hsl(205, 86%, 17%);
@@ -54,8 +53,8 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  font-family: 'Brygada 1918', serif;
-  background: var(--clr-grey-10);
+  font-family: 'PT Sans', sans-serif;
+  background: #ede7f6;
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -120,7 +119,7 @@ p {
 .section {
   width: 90vw;
   margin: 0 auto;
-  max-width: var(--max-width);
+  max-width: 500px;
 }
 
 @media screen and (min-width: 992px) {
@@ -148,7 +147,7 @@ Tours
 */
 main {
   width: 90vw;
-  max-width: var(--fixed-width);
+  max-width: 400px;
   margin: 5rem auto;
 }
 .loading {
@@ -172,6 +171,7 @@ main {
   margin: 2rem 0;
   box-shadow: var(--light-shadow);
   transition: var(--transition);
+
 }
 .single-tour:hover {
   box-shadow: var(--dark-shadow);

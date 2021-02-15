@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Loading from './components/Loading';
 import Tours from './components/Tours';
-import './App.css';
 
 const url = 'https://course-api.com/react-tours-project';
 
@@ -36,6 +35,18 @@ function App() {
     return (
       <main>
         <Loading />
+      </main>
+    );
+  }
+  if (tours.length === 0) {
+    return (
+      <main>
+        <div className="title">
+          <h2>No tours left </h2>
+          <button className="btn" onClick={fetchTours}>
+            Refresh page
+          </button>
+        </div>
       </main>
     );
   }
