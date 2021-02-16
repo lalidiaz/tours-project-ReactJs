@@ -1,6 +1,6 @@
 # tours-project-ReactJs ✈️
 
-This is the 2nd project to refresh ReactJs concepts. I am writing an article so I can share it with the community once it's finished.
+This is the 2nd project to refresh ReactJs concepts. I am writing an article  about ReactJs main  concepts so I can share it with the community once it's finished.
 In this app you can delete the tours offers you are not interested in and refresh the list of tours.
 Topics: 
 
